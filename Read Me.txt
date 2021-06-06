@@ -1,0 +1,21 @@
+DATA VISUALIZATION PROJECT
+
+Saloni Anand - 18BCE2276
+Kshitij Patne - 18BCE2271
+Divyang Arora - 18BCE2251
+
+Prerequisite: 'XAMPP' to run PHP files
+
+Steps to run the website: 
+Step 1: Save the folder in 'C:\xampp\htdocs' after installing xampp
+Step 2: Run XAMPP, and Start 'Apache' and 'MySQL'
+Step 3: Run 'http://localhost/phpmyadmin/' on your browser. 
+Step 4: Go to 'Database' to create a new database 'musicrec' for our project
+Step 5: Then, click on 'import' and select db.sql from our folder.
+It should import successfully.
+Step 6: pip install all the import libraries. 
+Step 7: On the python IDLE, run the file 'special.py'. This gets the songs from the latest Billboard Chart and adds it to the database music and eotion.
+Step 8: On your broswer, run 'http://localhost/visual-analysis/' to run the website. 
+There will be two options, visualizations and music. 
+Visualizations will show the sentiment analysis of each song graphically.
+And Music will show all the latest songs imported from the Billboard charts with a preview to listen to the song as well.
